@@ -34,7 +34,7 @@ if (age >= 18 && age <= 25) {
 
 const firstName = 'Sarah';
 
-if (firstName == 'Sarah' || 'Bram') {
+if (firstName === "Sarah" || firstName === "Bram") {
     console.log("Jij hebt zo'n mooie naam, jij krijgt een gratis biertje!")
 } else {
     console.log("Geen gratis bier hier!")
